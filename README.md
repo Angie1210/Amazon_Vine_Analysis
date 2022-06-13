@@ -18,18 +18,21 @@ First in *Amazon_Reviews_ETL.ipynb* the we used Spark to extract the data, then 
 
 Then using pySpark on the dataFrame *vine_table* we filtered the data and got these results:
 
-**Total number of reviewers, vine-reviwers and no vine-reviewrs**
+* *Total number of reviewers, vine-reviews and no vine-reviews*
 
 ![Screen Shot 2022-06-11 at 12 34 55 PM](https://user-images.githubusercontent.com/43548929/173202348-624ed314-fa92-460b-81e5-10fdfa762cc9.png)
 
-**Total 5-star reviews from vine-reviewrs and no vine_reviewr**
+* *Total 5-star reviews from vine-reviews and no vine-reviews*
 
 ![Screen Shot 2022-06-11 at 12 38 19 PM](https://user-images.githubusercontent.com/43548929/173202433-933468f8-e89c-42c4-bd86-ac0085de2148.png)
 
-**Percentage of 5 star reviews**
+* *Percentage of 5 star reviews*
 
 ![Screen Shot 2022-06-11 at 12 38 43 PM](https://user-images.githubusercontent.com/43548929/173202443-cdf38f5f-e4bd-46c0-8426-bba5026ac5fc.png)
 
 
 ## Summary
+The percentage of 5-star reviews coming from Vine is 66.67% and comparing it to the 55.07% of 5-stars reviews coming from no Vine Vine reviews it could seem that there is a bias to give best reviews when the persons are paid, but the sample is really small, there are onle 5 Vine reviews so its enough big to be representative. 
+
+So in order to be able to confirm this we should analyze more products reviews, whith more Vine reviews.
 
